@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: unset;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: #000022;
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  padding-left: 3rem;
+  margin: 0;
+}
+header h1 {
+  margin: 0;
+  padding: 0;
+}
+.search-bar,
+.sorting-options {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.search-bar input[type="button"] {
+  background-color: #000022;
+  color: #fff;
+  border-radius: 5px;
+}
+.search-bar input[type="search"] {
+  border-radius: 3px;
+  border: 1px solid #000022;
+  width: 12rem;
+  height: 1.7rem;
+}
+input,
+button {
+  height: 1.7rem;
+  border-radius: 3px;
+  border: 1px solid #000022;
+  cursor: pointer;
+}
+button {
+  border: none;
+}
+.tab .all-tab,
+.favorites-tab {
+  margin-left: 1.5rem;
+  width: 5rem;
+}
+.active {
+  background-color: #000022;
+  color: #fff;
+}
+#movies-card-container {
+  padding: 1rem 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.card {
+  width: 250px;
+  border: 1px solid black;
+  padding: 12px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.votes-favorites {
+  display: flex;
+  justify-content: space-between;
+}
+
+.favorites {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.poster {
+  width: 12rem;
+  height: 300px;
+  object-fit: cover;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.footer {
+  background-color: #000022;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2rem;
+  width: 100%;
+}
